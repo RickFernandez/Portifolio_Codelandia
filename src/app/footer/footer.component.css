@@ -1,0 +1,23 @@
+section {
+    background-color: #212121;
+    padding-block: .3rem;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: 100vw;
+    height: 8vh;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+p {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+p span {
+    color: #00DF5E;
+}

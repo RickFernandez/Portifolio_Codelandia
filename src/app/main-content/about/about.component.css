@@ -1,0 +1,59 @@
+/* ======= about-content ======= */
+.about-paragraph {
+    margin-top: 3rem;
+    color: #828282;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.about-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5rem;
+}
+
+.about-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-link:hover {
+    cursor: pointer;
+}
+
+.about-link:hover > div.circle > img.about-link-image {
+    animation: rotate 1.5s ease;
+}
+
+@keyframes rotate {
+    from {transform: rotateZ(0deg);}
+    to {transform: rotateZ(360deg);}
+}
+
+.circle {
+    background-color: #212121;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-link-image {
+    width: 1.5rem;
+    align-items: center;
+}
+
+.cicle-title {
+    margin-top: 1.2rem;
+    margin-bottom: 0;
+}
+
+.circle-paragraph {
+    font-size: 1.3rem;
+    color: #828282;
+}
